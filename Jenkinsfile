@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -8,7 +7,7 @@ pipeline {
 
     environment {
         AWS_REGION = "us-east-1"
-        CLUSTER_NAME = "tyson-cluster"
+        CLUSTER_NAME = "nikky-cluster"
         DOCKERHUB_USER = "nikkydevops"
         DOCKER_IMAGE = "nikkydevops/node-app:latest"
         PATH = "${env.WORKSPACE}/bin:${env.PATH}"
